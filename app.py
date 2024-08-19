@@ -1,5 +1,5 @@
-from flask import Flask, request, jsonify, render_template
-from flask_mail import Mail, Message
+from Flask import Flask, request, jsonify, render_template
+from Flask_mail import Mail, Message
 
 app = Flask(__name__)
 
